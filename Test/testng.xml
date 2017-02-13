@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="harshTest" parallel="false" thread-count="1" verbose="10">
+	<test enabled="true" name="testsWith" preserve-order="true">
+
+		<classes>
+			<class name="com.infogain.fedx.SeleniimTest">
+				<methods>
+					<include name="testing" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
